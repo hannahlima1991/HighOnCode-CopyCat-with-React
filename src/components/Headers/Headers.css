@@ -1,0 +1,16 @@
+.menu {
+  background-color: #eeeeee;
+  margin: 20px;
+  border: 1px solid darkgray;
+}
+.menu li {
+  padding: 10px;
+  display: inline;
+}
+@media only screen and (max-width: 480px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
